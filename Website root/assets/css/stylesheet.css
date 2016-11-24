@@ -1,0 +1,142 @@
+header {
+    text-align: center;
+	text-decoration: bold;
+    padding: 1.5em;
+    color: white;
+    background-color: rebeccapurple;
+    clear: left;
+    font-family: Arial;
+}
+
+#text{
+    font-family:Arial, Sans-Serif;
+}
+
+#container{
+    width:300px; 
+    margin:0 auto;
+}
+
+nav {
+    font-family: sans-serif;
+    align-self: center;
+    width: 100%;
+    height: 32px;
+    background-color: rebeccapurple;
+}
+
+.navlist {
+    display: inline;
+    list-style-type: none;
+    margin: auto;
+    align-content: center;
+   
+}
+
+.navlist > li {
+    float: left;
+}
+
+.navlist > li > a {
+    display: block;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navlist > li > a:hover:not(.active) {
+    background-color: mediumslateblue;
+}
+
+.navlist > li > a:not(.active) {
+    background-color: rebeccapurple;
+}
+
+.navlist > li > a:hover {
+    background-color: lightskyblue;
+}
+
+.active {
+    background-color: royalblue;
+}
+
+body {
+    background-color: slategray;
+}
+
+#content {
+    color: rebeccapurple;
+    align-content: center;
+    margin: auto;
+    background-color: navajowhite;
+    width: 90%;
+}
+
+#content > h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 28pt;
+}
+
+#content > p {
+    padding: 1.5em;
+}
+
+section {
+    align-content: center;
+    width: 92%;
+    color: purple;
+    background-color: white;
+    margin: auto;
+    padding: 0.5em;
+}
+
+section > h1 {
+    color: rebeccapurple;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 28pt;
+}
+section > h2 {
+    color: rebeccapurple;
+    font-size: 20pt;
+}
+
+section > table img {
+    align-self: center;
+    width: 270px;
+}
+
+aside {
+    align-self: center;
+    margin: auto;
+    overflow: wrap;
+	background-color: cornflowerblue;
+}
+
+#table {
+    border: 2px solid pink;
+    align-self: center;
+}
+
+th {
+    font-size:13pt;
+    text-overflow: wrap;
+}
+
+tr, th, td {
+    border: 2px solid blue;
+    border-collapse: inherit;
+}
+
+footer{
+    padding: 1em;
+    color: black;
+    background-color: gainsboro;
+    text-decoration: bold;
+}
+
+#totop {
+    float: right;
+}
